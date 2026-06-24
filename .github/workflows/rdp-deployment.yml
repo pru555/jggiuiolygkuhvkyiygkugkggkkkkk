@@ -10,7 +10,8 @@ on:
 
 jobs:
   deploy-rdp:
-    runs-on: windows-latest
+    runs-on: runs-on: windows-2022-gpu-8-core
+
     timeout-minutes: 360
     permissions:
       contents: write  # Required to push connection details back to repository
